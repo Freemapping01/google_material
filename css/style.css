@@ -1,0 +1,30 @@
+.flex-parent {
+  display: flex;
+  font-family: "Roboto", "Helvetica Nue", sans-serif;
+  height: 100vh;
+}
+.flex-parent .flex-child {
+  background: rgb(95, 243, 114);
+  box-sizing: border-box;
+  width: 21.7060810811%;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.flex-parent .avatar-container {
+  width: 100%;
+  height: 12%;
+  background-size: 100% 100%;
+  padding: 15px;
+  padding-top: 24px;
+  font-size: 14px;
+}
+.flex-parent .avatar-container .avatar {
+  border-radius: 100px;
+}
+
+.flex-child:nth-of-type(2) {
+  background: rgb(77, 157, 233);
+  width: 78.2939189189%;
+}
