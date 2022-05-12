@@ -1,17 +1,6 @@
 
-$round:100px; 
-$pdng:18px; 
-$grey:#4D4D4E;
-$blue:#2196F3;
-
-
-%fstyly{
-    font-size: 15px;
-    font-size: "Roboto", "Helvetica Nue", sans-serif;
-}
-
 .sidebar-content-left {
-    padding: $pdng;
+    padding: $space;
     color: $grey;
     display: flex;
     flex-direction: column;

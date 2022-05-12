@@ -1,0 +1,27 @@
+.flex-parent {
+    display: flex;
+    font-family: 'Roboto', 'Helvetica Nue', sans-serif;
+    height: 100vh;  
+    
+     .flex-child-left {  
+       background: #FFFFFF;
+       box-sizing: border-box;
+       width: calc(257px / 1184px * 100%);
+       white-space: nowrap;
+       display: flex;   
+       flex-wrap: nowrap;
+       flex-direction: column;
+      }
+    }
+
+    .flex-child-right {
+        background: $background;
+        width: calc(100% - 21.7060810811%);
+         .right-side {
+           height: calc(100vh - 79px); 
+           margin-top: 15px;
+           margin-right: 19px;
+           margin-left: 64px;
+           margin-bottom: 23px;
+         }
+      }

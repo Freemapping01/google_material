@@ -1,22 +1,11 @@
-$round:100px; 
-$pdng:18px; 
-$grey:#4D4D4E;
-$blue:#2196F3;
-
-
-%fstyly{
-    font-size: 15px;
-    font-size: "Roboto", "Helvetica Nue", sans-serif;
-}
-
 .sidebar-content-right {  
     background: #FFFFFF;
     box-sizing: border-box;
-    width: 432 / 1184 *100%;
+    width: calc(432 / 1184 *100%);
     white-space: nowrap; 
     flex-wrap: nowrap;
     flex-direction: row;
-    padding: $pdng;
+    padding: $space;
    }
 
    

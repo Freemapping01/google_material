@@ -1,84 +1,89 @@
-$round:100px; 
-$pdng:18px; 
-$grey:#4D4D4E;
-$blue:#2196F3;
 
 
-%fstyly{
-    font-size: 15px;
-    font-size: "Roboto", "Helvetica Nue", sans-serif;
+.flex {
+  display: flex;
 }
 
- .flex {
-    display: flex;
+.wrapper-central {
+  overflow: scroll;
+  margin-right: 15px;
+  width: calc(754px / 1184px *100%);
 }
 
-.scrolled-down {  
-    background: #FFFFFF;
-    box-sizing: border-box;
-    width: 754px / 1184px *100%;
-    white-space: nowrap;
-    display: flex;   
-    flex-wrap: nowrap;
-    flex-direction: row;
-    padding: $pdng;
-    margin-right: 15px;
+.scrolled-down {
+  background: #FFFFFF;
+  box-sizing: border-box;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  padding: $space;
 
-    .col-1 {
-      .flex {
-        display: flex;
-        flex-direction: column;
-        }
-         .star-pink {
-            margin-top: 27px;
-            margin-bottom: 220px;
-         }
-          .alfa {
-              margin-top: 0px;
-              margin-bottom: 393px; 
-              width: 16px;
-              height: 28px;
-          }
-             .beta {
-               width: 15px;
-               height: 27px;
-             }
-        
+  .col-1 {
+    .flex {
+      display: flex;
+      flex-direction: column;
     }
-       
 
-     .col-2 {
-        width: 100%;
-        color: $grey;
-        display: flex;
-        flex-direction: column;
-        p {
-           margin-inline-start: 2em;
-        }
-           @extend %fstyly;
-            .flex {
-                display: flex;
-            }
-             .section-top {
-                 margin-bottom: 0.5rem;
-             }
-               .line {
-                 border-bottom: 1px solid #D6D5D5;
-                 
-               }
-                  .section-end {
-                    margin-top: 0.5rem;
-                   }
-     }
-    
+    .star-pink {
+      margin-top: 27px;
+      margin-bottom: 220px;
+    }
 
-   }
+    .alfa {
+      margin-top: 0px;
+      margin-bottom: 393px;
+      width: 16px;
+      height: 28px;
+    }
+
+    .beta {
+      width: 15px;
+      height: 27px;
+    }
+
+  }
+
+
+  .col-2 {
+    width: 100%;
+    color: $grey;
+    display: flex;
+    flex-direction: column;
+
+    p {
+      margin-inline-start: 2em;
+    }
+
+    @extend %fstyly;
+
+    .flex {
+      display: flex;
+    }
+
+    .section-top {
+      margin-bottom: 0.5rem;
+    }
+
+    .line {
+      border-bottom: 1px solid #D6D5D5;
+
+    }
+
+    .section-end {
+      margin-top: 0.5rem;
+    }
+  }
+
+
+}
 
 
 .dialog {
-    margin: 20px;
-    .dialog-avatar {
-      width: 39px;
-      height: 39px;
-     }
-    }  
+  margin: 20px;
+
+  .dialog-avatar {
+    width: 39px;
+    height: 39px;
+  }
+}
