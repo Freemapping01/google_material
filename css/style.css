@@ -1,10 +1,98 @@
+.sidebar-content-left {
+  font-size: 15px;
+  font-size: "Roboto", "Helvetica Nue", sans-serif;
+}
+
+.sidebar-content-left {
+  padding: 18px;
+  color: #4D4D4E;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar-content-left p {
+  -webkit-margin-start: 2em;
+          margin-inline-start: 2em;
+}
+.sidebar-content-left .flex {
+  display: flex;
+}
+.sidebar-content-left .section-top {
+  margin-bottom: 0.5rem;
+}
+.sidebar-content-left .line {
+  border-bottom: 1px solid #D6D5D5;
+}
+.sidebar-content-left .section-end {
+  margin-top: 0.5rem;
+}
+
+.sidebar-content-left {
+  font-size: 15px;
+  font-size: "Roboto", "Helvetica Nue", sans-serif;
+}
+
+.header {
+  background-color: #2196F3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  min-height: 3.5rem;
+  flex: 0 0 auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.sidebar-content-left {
+  font-size: 15px;
+  font-size: "Roboto", "Helvetica Nue", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.scrolled-down {
+  background: #FFFFFF;
+  box-sizing: border-box;
+  width: 63.6824324324%;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  padding-left: 0px;
+  margin-right: 15px;
+}
+
+.sidebar-content-left {
+  font-size: 15px;
+  font-size: "Roboto", "Helvetica Nue", sans-serif;
+}
+
+.sidebar-content-right {
+  background: #FFFFFF;
+  box-sizing: border-box;
+  width: 36.4864864865%;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.body {
+  background: #EEEEEE;
+}
+
 .flex-parent {
   display: flex;
   font-family: "Roboto", "Helvetica Nue", sans-serif;
   height: 100vh;
 }
 .flex-parent .flex-child {
-  background: rgb(95, 243, 114);
+  background: #FFFFFF;
   box-sizing: border-box;
   width: 21.7060810811%;
   white-space: nowrap;
@@ -14,9 +102,9 @@
 }
 .flex-parent .avatar-container {
   width: 100%;
-  height: 12%;
+  height: 15%;
   background-size: 100% 100%;
-  padding: 15px;
+  padding: 18px;
   padding-top: 24px;
   font-size: 14px;
 }
@@ -25,6 +113,13 @@
 }
 
 .flex-child:nth-of-type(2) {
-  background: rgb(77, 157, 233);
+  background: #EEEEEE;
   width: 78.2939189189%;
+}
+.flex-child:nth-of-type(2) .right-side {
+  height: 100vh;
+  margin-top: 15px;
+  margin-right: 19px;
+  margin-left: 64px;
+  margin-bottom: 23px;
 }

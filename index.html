@@ -1,35 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
 </head>
+
 <body>
-    <div class="flex-parent">
-        <div class="flex-child">
-          <div class="avatar-container" style="background-image: url('./img/material-design-wallpaper-1.png');">
-            <img src="./img/kyle-ledbetter-600.png" alt="photo" class="avatar" />
-            <p style="color: #FFF;"><b>Kyle Ledbetter</b><br>
-            kyle@kyleledbetter.com
-            </p>
+  <div class="flex-parent">
+    <div class="flex-child">
+      <div class="avatar-container" style="background-image: url('./img/material-design-wallpaper-1.png');">
+        <img src="./img/kyle-ledbetter-600.png" alt="photo" class="avatar" />
+        <p style="color: #FFF;"><b>Kyle Ledbetter</b><br>
+          kyle@kyleledbetter.com
+        </p>
+
+      </div>
+
+      <div class="sidebar-content-left">
+        <div class="section-top">
+          <div class="flex">
+            <img src="./img/access-time.svg" alt="icon" class="icon" />
+            <p>Recent Contacts</p>
+          </div>
+          <div class="flex">
+            <img src="./img/Archive.svg" alt="icon" class="icon" />
+            <p>Archive</p>
+          </div>
+          <div class="flex">
+            <img src="./img/Replied.svg" alt="icon" class="icon" />
+            <p>Replied</p>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="section-end">
+          <div class="flex">
+            <img src="./img/Sent.svg" alt="icon" class="icon" />
+            <p>Sent</p>
+          </div>
+          <div class="flex">
+            <img src="./img/Trash.svg" alt="icon" class="icon" />
+            <p>Trash</p>
+          </div>
+          <div class="flex">
+            <img src="./img/star.svg" alt="icon" class="icon" />
+            <p>Starred</p>
           </div>
 
-          <div class="sidebar-content-left">
-            <img src="./img/access-time.svg" alt="icon" class="icon-left" />
-
+          <div class="flex">
+            <img src="./img/Forums.svg" alt="icon" class="icon" />
+            <p>Forums</p>
           </div>
-          
+          <div class="flex">
+            <img src="./img/flag.svg" alt="icon" class="icon" />
+            <p>Updates</p>
+          </div>
         </div>
-        <div class="flex-child">
-          <div class="elem">elem 2</div>
+
+      </div>
+
+    </div>
+    <div class="flex-child">
+      <div class="header">
+
+      </div>
+      <div class="flex right-side">
+        <div class="scrolled-down">
           <div class="elem">elem 2</div>
         </div>
-    </div> 
+        <div class="sidebar-content-right">
+          <div class="elem">elem 2</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>

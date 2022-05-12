@@ -1,0 +1,26 @@
+$round:100px; 
+$pdng:18px; 
+$grey:#4D4D4E;
+$blue:#2196F3;
+
+
+%fstyly{
+    font-size: 15px;
+    font-size: "Roboto", "Helvetica Nue", sans-serif;
+}
+
+
+.header {
+    background-color: $blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    min-height: 3.5rem;
+    flex: 0 0 auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}

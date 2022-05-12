@@ -1,0 +1,28 @@
+$round:100px; 
+$pdng:18px; 
+$grey:#4D4D4E;
+$blue:#2196F3;
+
+
+%fstyly{
+    font-size: 15px;
+    font-size: "Roboto", "Helvetica Nue", sans-serif;
+}
+
+ .flex {
+    display: flex;
+}
+
+.scrolled-down {  
+    background: #FFFFFF;
+    box-sizing: border-box;
+    width: 754px / 1184px *100%;
+    white-space: nowrap;
+    display: flex;   
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding-left: 0px;
+    margin-right: 15px;
+    
+
+   }
