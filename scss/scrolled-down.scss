@@ -20,9 +20,65 @@ $blue:#2196F3;
     white-space: nowrap;
     display: flex;   
     flex-wrap: nowrap;
-    flex-direction: column;
-    padding-left: 0px;
+    flex-direction: row;
+    padding: $pdng;
     margin-right: 15px;
+
+    .col-1 {
+      .flex {
+        display: flex;
+        flex-direction: column;
+        }
+         .star-pink {
+            margin-top: 27px;
+            margin-bottom: 220px;
+         }
+          .alfa {
+              margin-top: 0px;
+              margin-bottom: 393px; 
+              width: 16px;
+              height: 28px;
+          }
+             .beta {
+               width: 15px;
+               height: 27px;
+             }
+        
+    }
+       
+
+     .col-2 {
+        width: 100%;
+        color: $grey;
+        display: flex;
+        flex-direction: column;
+        p {
+           margin-inline-start: 2em;
+        }
+           @extend %fstyly;
+            .flex {
+                display: flex;
+            }
+             .section-top {
+                 margin-bottom: 0.5rem;
+             }
+               .line {
+                 border-bottom: 1px solid #D6D5D5;
+                 
+               }
+                  .section-end {
+                    margin-top: 0.5rem;
+                   }
+     }
     
 
    }
+
+
+.dialog {
+    margin: 20px;
+    .dialog-avatar {
+      width: 39px;
+      height: 39px;
+     }
+    }  

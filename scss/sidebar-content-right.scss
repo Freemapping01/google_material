@@ -13,8 +13,10 @@ $blue:#2196F3;
     background: #FFFFFF;
     box-sizing: border-box;
     width: 432 / 1184 *100%;
-    white-space: nowrap;
-    display: flex;   
+    white-space: nowrap; 
     flex-wrap: nowrap;
-    flex-direction: column;
+    flex-direction: row;
+    padding: $pdng;
    }
+
+   
