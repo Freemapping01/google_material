@@ -10,7 +10,37 @@
               border-radius: $round;
             } 
           }
+
+          .avatar-container-right {
+           background-size: cover;
+           background-position: center;
+           padding: $space;
+           height: 160px;
+           font-size: 14px;
+           display: flex;
+           flex-direction: column;
+          }
+
+          @media only screen and (max-width:  1184px) {
+            .avatar-container-right { 
+                height: 147px;
+            }
+
+            
+           
+        }
           
+          .avatar-menu-right {
+            display: flex;
+            justify-content: space-between;
+            
+          }
   
+
+          @media only screen and (min-width:  1330px) {
+            .avatar-container-right { 
+                height: 200px;
+            }
+          }
     
   

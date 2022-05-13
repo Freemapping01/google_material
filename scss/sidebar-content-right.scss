@@ -1,8 +1,7 @@
 .sidebar-content-right {  
     background: #FFFFFF;
     box-sizing: border-box;
-    width: calc(432 / 1184 *100%);
-    white-space: nowrap; 
+    width: 50%; 
     flex-wrap: nowrap;
     flex-direction: row;
 
@@ -12,7 +11,7 @@
    }
 
    
-   .col-2
+   .col-4
    {
        padding: $space;
 
@@ -30,7 +29,7 @@
            p {
             margin: 0px;
            }
-            .f-icone {
+            .f-icon {
             width: 18px;
             flex-basis: 20%;
            }
@@ -59,3 +58,28 @@
     @extend %text-sm;
    }
 
+   .col-3 {
+     .f-icon-start {
+      display: flex;
+      justify-content: space-between;
+      flex-basis: 90%;
+     }
+       .f-icon-end {
+        display: flex;
+        flex-basis: 2%;
+       }
+  
+   }
+
+   .hangout {
+    margin-left: 15px;
+  }
+
+  @media only screen and (max-width:  1184px) {
+    .sidebar-content-right { 
+        width: 56%;
+    }
+
+  }
+
+ 
