@@ -5,7 +5,57 @@
     white-space: nowrap; 
     flex-wrap: nowrap;
     flex-direction: row;
-    padding: $space;
+
+     .avatar {
+         width: 100%;
+     }
    }
 
    
+   .col-2
+   {
+       padding: $space;
+
+       .f-list {
+           
+           flex-basis: 80%;
+           
+       }
+
+         .contacts {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+         }
+           p {
+            margin: 0px;
+           }
+            .f-icone {
+            width: 18px;
+            flex-basis: 20%;
+           }
+
+           .section-top {
+            margin-bottom: 0.5rem;
+            }
+            .line {
+              border-bottom: 1px solid #D6D5D5;
+            
+            }
+              .section-end {
+                margin-top: 0.5rem;
+               }
+
+               .section-middle {
+                   margin-top: 1.5rem;
+               }
+   }
+
+   .text-lg {
+    @extend %text-lg;
+   }
+
+   .text-sm {
+    @extend %text-sm;
+   }
+

@@ -4,7 +4,7 @@ $grey:#4D4D4E;
 $blue:#2196F3;
 
 
-%fstyly{
+%text-md{
     font-size: 15px;
     font-size: "Roboto", "Helvetica Nue", sans-serif;
 }
@@ -12,16 +12,26 @@ $blue:#2196F3;
 
 .header {
     background-color: $blue;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 1rem;
-    min-height: 64px;
-    flex: 0 0 auto;
+    height: 64px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
     cursor: default;
+     .f-icone {
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        
+
+     }
+       .f-menu {
+        display: flex;
+        flex-basis: 100%;
+        justify-content: space-between;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
 }
+
 
